@@ -1,0 +1,12 @@
+
+<!-- this is the rails way of displaying an image -->
+<%= link_to image_tag('mrembo.jpg',alt: "Mrembo baby picture"), 'https://www.therailsshop.club',
+																			target: :_blank %>
+<!-- This is the HTML way of displaying an image -->
+<a href="https://www.therailsshop.club"><img alt="Mrembo baby picture" 
+										src="/assets/mrembo.jpg" ></a>
+<!-- The rails version -->
+<%= link_to "Browse to the about page", pages_about_path%> <br><br>
+<!-- The HTML version -->
+<h1>The HTML version of the link</h1>
+<a href="/pages/about">Browse to the about page</a>
